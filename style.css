@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+}
+.header .container, .slider .container, .service .container, .item .container, .testimuni .container, .count .container, .empower .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header CSS */
+.header{
+    padding: 37px 0;
+    flex-wrap: wrap;
+}
+.header-logo{
+    font-family: 'Secular One', sans-serif;
+}
+.header-logo h2 a, .footer-logo h2 a{
+    color: #1d1d1d;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Secular One', sans-serif;
+}
+.header-manu{}
+.header-manu ul{
+    display: flex;
+}
+.header-manu ul li {}
+.header-manu ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #1D1D1D;
+    line-height: 24px;
+    word-wrap:break-word ;
+    transition: .5s;
+}
+
+.header li.log-in-link a{
+    color: #094BCA;
+    padding: 10px 27px;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+
+.header li.get-started-link a{
+    color: #fff;
+    background: #1361F5;
+    border-radius: 5px;
+    padding: 10px 27px;
+    margin-left: 0;
+}
+.btn-hover:hover{
+    background: #1361F5;
+    border: 1px solid #1361F5;
+    color: #fff;
+    transition: .5s;
+}
+.button-primary:hover{
+    color: #fff;
+    background: #094BCA;
+    transition: .5s;
+    border: 1px solid #094BCA;
+
+}
+
+/* Slider CSS */
+
+.slider{}
+.slider-content{}
+.slider-content h1{
+    font-size: 48px;
+    color: #1D1D1D;
+    font-weight: 700;
+    line-height: 50px;
+    word-wrap: break-word;
+    margin-bottom: 35px;
+}
+.slider-content p{
+    color: #223140;
+    font-size: 18px;
+    line-height: 32px;
+    word-wrap: break-word;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.button{
+    padding: 10px 27px;
+    border: 0.50px solid #E0E0E0 ;
+    border-radius: 5px;
+    color: #094BCA;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.button-primary{
+    border-color: #1361F5;
+    background-color: #1361F5;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.slider-picture{
+    max-width: 100%;
+}
+/* Service CSS */
+.service{
+    padding: 30px 0;
+}
+.card{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+
+}
+.card h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #223140;
+    margin-bottom: 15px;
+    line-height: 24px;
+    word-wrap: break-word;
+    font-family:  ITF Devanagari Marathi;
+}
+.card p{
+    font-size: 14px;
+    color: #535558;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+span img{
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 24px;
+    justify-content: center;
+    color: #ECB22D;
+    padding: 10px;
+    background: #ECB22D1A;
+}
+/* Product section CSS */
+.product{
+    padding: 40px 0;
+    text-align: center;
+}
+.h3-text{
+   font-size: 32px;
+   color: #1D1D1D;
+   letter-spacing: -1px;
+   font-weight: 700;
+   line-height: 50px;
+   margin-bottom: 35px;
+}
+.p-text{
+    font-size: 18px;
+    color: #223140;
+    letter-spacing:-1px;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+
+/* Item CSS */
+.w-50{
+    width: 45%;
+}
+.item{
+    padding: 40px 0;
+}
+.item-content{}
+.item-content h2{
+    color: #094BCA;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+.pb-50{
+    padding-bottom: 180px;
+}
+/* Item section-4 CSS */
+.bg-fafafa{
+    background: #fafafa;
+   
+}
+
+.item-pictures{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 45%;
+   height: 320px;
+
+   
+   
+}
+.picture-1{ 
+margin-top: -40px;
+
+}
+
+.picture-2{
+    margin-bottom: -80px;
+}
+.picture-3{
+    margin-top: -40px;
+}
+.picture-4{
+    margin-top: -100px;
+}
+.picture{
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    box-shadow: 0px 5.251688480377197px 23px rgba(46.62, 39.60, 91.37, 0.17); 
+    border-radius: 12.27px;
+    margin-bottom:20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.picture img{}
+
+/* Testi CSS */
+.testimuni{
+    padding: 50px 0;
+    margin-top: 150px;
+}
+.testimuni .container{
+    flex-wrap: wrap;
+}
+.testimuni h3{
+    text-align: center;
+}
+.testimuni p{
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+
+.carder{
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 29%;
+    margin-right: 20px;
+    height: 354px;
+    text-align: center;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+}
+.carder img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -65px;
+    position: relative;
+
+}
+.carder p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #535558;
+    margin-bottom: 35px;
+}
+.carder h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #d9d9d9;
+    margin-bottom: 35px;
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+}
+.carder h4{
+    color: #223140;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* Count section CSS */
+.count{
+    padding: 60px 0;
+}
+.count-item{
+    text-align: center;
+}
+.count-item h2{
+    color: #094BCA;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    word-wrap: break-word
+}
+.count-item p{
+    color: #223140;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+/* Exprience Section */
+.exprience{
+    padding: 60px 0;
+    text-align: center;
+}
+.exprience h3{}
+.exprience p{
+    margin-bottom: 60px;
+}
+.exprience .button-primary {}
+
+/* Empower Section */
+.empower{
+    padding: 60px 0;
+}
+.empower .container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.empower h3{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.em-card{
+    background: #fff;
+    width: 378px;
+    height: 348px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.em-card:nth-child(3){
+    margin-right: 0;
+}
+.em-card:nth-child(6){
+    margin-right: 0;
+}
+.em-card img{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.em-inner-card{
+    padding: 20px;
+}
+.em-inner-card p{
+    margin-top: 15px;
+    color: #223140;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 10px;
+    word-wrap: break-word
+}
+.em-inner-card span{
+    color: #004CE6;
+    font-size: 12px;
+    font-weight: 500;
+    word-wrap: break-word;
+    background: gainsboro;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin-right: 8px;
+}
+.em-card-link{
+    color: #094BCA;
+    line-height: 24px;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Footer CSS */
+.footer{
+    padding: 50px 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+   width: 36%;
+}
+.footer-logo h2{
+    margin-bottom: 35px;
+}
+.footer-logo p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #535558;
+    font-weight: 400;
+    margin-bottom: 35px;
+    word-wrap: break-word
+}
+.footer-logo ul{
+    display: flex;
+}
+.footer-logo ul li{}
+.footer-logo ul li a{
+    color: #094BCA;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
+.w-16{
+    width: 17%;
+}
+.w-32{
+    width: 30%;
+}
+.footer-about{
+  
+}
+.footer-about h2{
+    color: #1D1D1D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 35px;
+    word-wrap: break-word
+}
+.footer-about ul{}
+.footer-about ul li {}
+.footer-about ul li a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535558;
+    line-height: 26px;
+    margin-bottom: 15px;
+    word-wrap: break-word
+}
+.blog-card{
+    background: #fff;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 0 10px 10px 0;
+}
+.blog-card img{
+    max-width: 100%;
+    border-radius: 10px 0 0 10px ;
+}
+.blog-card-content{
+    padding: 10px;
+}
+.blog-card-content p{
+    font-size: 14px;
+    color: #223140;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 15px;
+    word-wrap: break-word
+}
